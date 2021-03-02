@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  bottom: 0;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(201, 198, 198);
+  max-width: 920px;
+  margin: auto;
+}
+
+.my-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-name {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.location {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.hero {
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 920px;
+  margin: auto;
+}
+
+.about-me,
+.skills,
+.education,
+.my-english,
+.projects {
+  max-width: 450px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.title {
+  margin-bottom: 15px;
+  min-width: 100%;
+}
+
+.footer {
+  padding: 15px;
+  padding-top: 0;
+}
+
+.footer-container {
+  max-width: 920px;
+  margin: auto;
+  background-color: rgb(201, 198, 198);
+}
+
+@media  (min-width: 481px) and (max-width: 991px) {
+  .about-me,
+  .skills,
+  .education,
+  .my-english,
+  .projects {
+    max-width: 980px;
+    min-width: 460px;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .title {
+    background-color: transparent;
+  }
+
+  .contacts {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .my-photo {
+    width: 130px;
+    height: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-me,
+  .skills,
+  .education,
+  .my-english,
+  .projects {
+    margin-right: 0px;
+  }
+
+  .my-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .location {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .my-name {
+    margin-bottom: 5px;
+    font-size: 28px;
+  }
+
+  .item {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+
+  .contacts {
+    flex-direction: column;
+  }
+
+  .title {
+    background-color: rgb(201, 198, 198);
+  }
+}
+
+@media (max-width: 400px) {
+  .header,
+  .hero,
+  .footer {
+    padding: 5px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    max-width: 95%;
+  }
+
+  .my-name {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+  .location {
+    text-align: center;
+  }
+
+  .hero-container,
+  .footer-container {
+    max-width: 95%;
+  }
+
+  .about-me,
+  .skills,
+  .education,
+  .my-english,
+  .projects {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
