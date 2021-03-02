@@ -37,3 +37,11 @@ I have ability lo learn, perseverance and love solving difficult task.
 
 - finished glo-academy's course [JS 16](https://fs-thb01.getcourse.ru/fileservice/file/thumbnail/h/9249d650564a1f40a58aa458318c0361.png/s/800x/a/12250/sc/460)
 - learning glo-academy's html/css course called web-start right now
+
+# Education:
+
+Brest State Technical University, The Faculty of Сivil construction in 2011
+
+# English:
+
+[B1](https://my-works.site/homeworks/SCAN0000.jpg). Unfortunately I don't have the opportunity to use English at work or in life except traveling but I'm visiting English classes.
